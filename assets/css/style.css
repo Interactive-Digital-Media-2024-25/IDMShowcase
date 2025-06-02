@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #111;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.countdown {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.countdown div {
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown span {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up.delay {
+    animation-delay: 0.5s;
+}
