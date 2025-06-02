@@ -2,6 +2,8 @@
 
 This repository contains the codebase for the official website of the **Interactive Digital Media Summer Showcase** at **Trinity College Dublin**, for the **2024–2025 academic year**.
 
+---
+
 ## About
 
 The summer showcase is a highlight event for the Interactive Digital Media programme, offering students a platform to present their work in areas such as web developing, VR, graphic design, digital storytelling, and more.
